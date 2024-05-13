@@ -10,7 +10,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
-openapi_key = st.secrets["OPEN_API_KEY"]
+openapi_key = st.secrets["GOOGLE_API_KEY"]
 
 
 
